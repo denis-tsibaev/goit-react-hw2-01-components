@@ -1,0 +1,18 @@
+.avatar {
+  /* margin-right: 15px; */
+  padding: 10px;
+}
+
+.statusOnline {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.statusOffline {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+}
