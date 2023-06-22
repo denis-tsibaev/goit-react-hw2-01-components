@@ -1,5 +1,4 @@
 import s from "./FriendListItem.module.css";
-import cn from "classnames";
 
 const FriendListItem = ({ avatar, name, isOnline }) => (
   <>

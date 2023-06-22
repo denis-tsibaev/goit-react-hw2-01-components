@@ -10,7 +10,7 @@ function Profile({
   const { followers = 1, views = 2, likes = 3 } = stats;
   return (
     <div className={style.profile}>
-      <div className="description">
+      <div className={style.description}>
         <img src={avatar} alt="User avatar" className={style.avatar} />
         <p className={style.name}>{name}</p>
         <p className={style.tag}>{tag}</p>
@@ -24,7 +24,7 @@ function Profile({
         </li>
         <li>
           <span className={style.label}>Views: </span>
-          <span className="quantity">{views}</span>
+          <span className={style.quantity}>{views}</span>
         </li>
         <li>
           <span className={style.label}>Likes: </span>

@@ -3,7 +3,8 @@
   padding: 10px;
 }
 
-.statusOnline {
+.statusOnline,
+.statusOffline {
   width: 10px;
   height: 10px;
   background-color: green;
@@ -11,8 +12,5 @@
 }
 
 .statusOffline {
-  width: 10px;
-  height: 10px;
   background-color: red;
-  border-radius: 50%;
 }

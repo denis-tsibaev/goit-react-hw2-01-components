@@ -1,6 +1,20 @@
 .profile {
-  color: rgb(128, 128, 128);
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightgrey;
+  width: 600px;
+
+  padding: 20px 10px;
+}
+
+.description {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  width: 300px;
+  /* color: rgb(128, 128, 128); */
   font-size: 20px;
+  padding: 20px 10px;
 }
 
 .avatar {
@@ -10,7 +24,20 @@
 }
 
 .stats {
+  display: flex;
+  justify-content: space-around;
   font-size: 16px;
   list-style: none;
   color: rgb(29, 141, 29);
+  font-size: 24px;
+}
+
+.label {
+  display: block;
+  color: blueviolet;
+  text-transform: uppercase;
+}
+
+.quantity {
+  display: block;
 }
